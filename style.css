@@ -1,0 +1,971 @@
+.screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.25s;
+  color: #be1622;
+}
+
+a:not(:hover) {
+  transition: 1s;
+  color: #000000;
+}
+
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+.screen .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  width: 1280px;
+  height: 3000px;
+  position: relative;
+}
+
+.screen .overlap {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 300px;
+  left: 206px;
+}
+
+.overlap:hover, .overlap-2:hover, .overlap-3:hover, .overlap-4:hover, .overlap-5:hover, .overlap-6:hover, .overlap-7:hover, .overlap-8:hover, .overlap-9:hover, .overlap-10:hover, .overlap-11:hover, .overlap-12:hover, .overlap-13:hover, .overlap-14:hover, .overlap-15:hover, .overlap-16:hover, .overlap-17:hover, .overlap-18:hover, .overlap-19:hover, .overlap-20:hover, .overlap-21:hover, .overlap-22, .overlap-group:hover, .overlap-group-2:hover {
+  transition: 0.25s;
+  transform: scale(1.1);
+}
+
+.overlap, .overlap-2, .overlap-3, .overlap-4, .overlap-5, .overlap-6, .overlap-7, .overlap-8, .overlap-9, .overlap-10, .overlap-11, .overlap-12, .overlap-13, .overlap-14, .overlap-15, .overlap-16, .overlap-17, .overlap-18, .overlap-19, .overlap-20, .overlap-21, .overlap-22, .overlap-group, .overlap-group-2:not(:hover) {
+  transition: 0.25s;
+  transform: scale(1);
+}
+
+.screen .image {
+  position: absolute;
+  width: 187px;
+  height: 110px;
+  top: 31px;
+  left: 38px;
+  transition: all 0.2s ease;
+  object-fit: cover;
+}
+
+.screen .rectangle {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.screen .text-wrapper {
+  position: absolute;
+  width: 168px;
+  top: 140px;
+  left: 24px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-2 {
+  top: 222px;
+  left: 120px;
+  position: absolute;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-group {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 300px;
+  left: 512px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.screen .img {
+  width: 175px;
+  height: 114px;
+  top: 17px;
+  left: 35px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-3 {
+  position: absolute;
+  top: 143px;
+  left: 22px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-4 {
+  top: 221px;
+  left: 123px;
+  position: absolute;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-2 {
+  position: absolute;
+  width: 245px;
+  height: 290px;
+  top: 300px;
+  left: 830px;
+}
+
+.screen .image-2 {
+  width: 114px;
+  height: 139px;
+  top: 6px;
+  left: 63px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-5 {
+  position: absolute;
+  width: 222px;
+  top: 144px;
+  left: 23px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-6 {
+  top: 222px;
+  left: 124px;
+  position: absolute;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-7 {
+  top: 243px;
+  left: 550px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-8 {
+  top: 610px;
+  left: 53px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-group-2 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 723px;
+  left: 55px;
+}
+
+.screen .text-wrapper-9 {
+  top: 226px;
+  left: 120px;
+  position: absolute;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-3 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 723px;
+  left: 361px;
+}
+
+.screen .rectangle-2 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+  transition: all 0.2s ease;
+}
+
+.screen .image-3 {
+  width: 178px;
+  height: 64px;
+  top: 54px;
+  left: 35px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-10 {
+  position: absolute;
+  width: 215px;
+  top: 144px;
+  left: 21px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-11 {
+  position: absolute;
+  top: 228px;
+  left: 110px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-4 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 723px;
+  left: 679px;
+}
+
+.screen .image-4 {
+  width: 208px;
+  height: 135px;
+  top: 18px;
+  left: 16px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-12 {
+  position: absolute;
+  width: 205px;
+  top: 144px;
+  left: 19px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-13 {
+  top: 226px;
+  left: 98px;
+  position: absolute;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-5 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 723px;
+  left: 986px;
+}
+
+.screen .image-5 {
+  width: 225px;
+  height: 150px;
+  top: 9px;
+  left: 7px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-14 {
+  position: absolute;
+  width: 208px;
+  top: 144px;
+  left: 15px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-15 {
+  position: absolute;
+  top: 226px;
+  left: 130px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-16 {
+  position: absolute;
+  top: 1071px;
+  left: 53px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-6 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 1184px;
+  left: 55px;
+}
+
+.screen .image-6 {
+  width: 174px;
+  height: 124px;
+  top: 10px;
+  left: 33px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .overlap-7 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 1184px;
+  left: 361px;
+}
+
+.screen .element {
+  position: absolute;
+  width: 178px;
+  height: 142px;
+  top: 3px;
+  left: 35px;
+  object-fit: cover;
+}
+
+.screen .overlap-8 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 1184px;
+  left: 679px;
+}
+
+.screen .element-2 {
+  position: absolute;
+  width: 134px;
+  height: 139px;
+  top: 10px;
+  left: 60px;
+  object-fit: cover;
+}
+
+.screen .overlap-9 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 1184px;
+  left: 986px;
+}
+
+.screen .image-7 {
+  width: 158px;
+  height: 139px;
+  top: 6px;
+  left: 51px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-17 {
+  top: 1532px;
+  left: 53px;
+  position: absolute;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-10 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 1645px;
+  left: 55px;
+}
+
+.screen .image-8 {
+  width: 128px;
+  height: 106px;
+  top: 21px;
+  left: 58px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .overlap-11 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 1645px;
+  left: 361px;
+}
+
+.screen .text-wrapper-18 {
+  width: 200px;
+  top: 144px;
+  left: 21px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .unknown {
+  position: absolute;
+  width: 153px;
+  height: 115px;
+  top: 26px;
+  left: 47px;
+  object-fit: cover;
+}
+
+.screen .overlap-12 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 1645px;
+  left: 679px;
+}
+
+.screen .text-wrapper-19 {
+  top: 226px;
+  left: 111px;
+  position: absolute;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .image-9 {
+  width: 136px;
+  height: 117px;
+  top: 24px;
+  left: 54px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .overlap-13 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 1645px;
+  left: 986px;
+}
+
+.screen .image-10 {
+  width: 134px;
+  height: 103px;
+  top: 21px;
+  left: 53px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-20 {
+  top: 1993px;
+  left: 53px;
+  position: absolute;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-14 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 2106px;
+  left: 55px;
+}
+
+.screen .text-wrapper-21 {
+  position: absolute;
+  width: 209px;
+  top: 166px;
+  left: 17px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .image-11 {
+  width: 111px;
+  height: 156px;
+  top: 11px;
+  left: 72px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .overlap-15 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 2106px;
+  left: 361px;
+}
+
+.screen .laura-palanti {
+  position: absolute;
+  width: 213px;
+  top: 163px;
+  left: 19px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .image-12 {
+  width: 121px;
+  height: 161px;
+  top: 9px;
+  left: 64px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .overlap-16 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 2106px;
+  left: 679px;
+}
+
+.screen .text-wrapper-22 {
+  position: absolute;
+  width: 205px;
+  top: 169px;
+  left: 19px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .image-13 {
+  width: 80px;
+  height: 142px;
+  top: 12px;
+  left: 77px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .overlap-17 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 2106px;
+  left: 986px;
+}
+
+.screen .text-wrapper-23 {
+  position: absolute;
+  width: 225px;
+  top: 162px;
+  left: 6px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .image-14 {
+  width: 120px;
+  height: 138px;
+  top: 16px;
+  left: 63px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.screen .text-wrapper-24 {
+  top: 2454px;
+  left: 55px;
+  position: absolute;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-18 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 2567px;
+  left: 57px;
+}
+
+.screen .text-wrapper-25 {
+  position: absolute;
+  width: 168px;
+  top: 173px;
+  left: 33px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .images {
+  position: absolute;
+  width: 168px;
+  height: 141px;
+  top: 13px;
+  left: 36px;
+  object-fit: cover;
+}
+
+.screen .overlap-19 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 2567px;
+  left: 363px;
+}
+
+.screen .text-wrapper-26 {
+  position: absolute;
+  width: 201px;
+  top: 173px;
+  left: 19px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .images-2 {
+  position: absolute;
+  width: 120px;
+  height: 141px;
+  top: 13px;
+  left: 58px;
+  object-fit: cover;
+}
+
+.screen .overlap-20 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 2567px;
+  left: 681px;
+}
+
+.screen .text-wrapper-27 {
+  position: absolute;
+  width: 186px;
+  top: 166px;
+  left: 36px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .element-f {
+  position: absolute;
+  width: 120px;
+  height: 139px;
+  top: 12px;
+  left: 55px;
+  object-fit: cover;
+}
+
+.screen .overlap-21 {
+  position: absolute;
+  width: 240px;
+  height: 290px;
+  top: 2567px;
+  left: 988px;
+}
+
+.screen .text-wrapper-28 {
+  position: absolute;
+  width: 208px;
+  top: 171px;
+  left: 16px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .element-fo-f {
+  position: absolute;
+  width: 100px;
+  height: 137px;
+  top: 12px;
+  left: 68px;
+  object-fit: cover;
+}
+
+.screen .line {
+  position: absolute;
+  width: 1185px;
+  height: 4px;
+  top: 139px;
+  left: 44px;
+}
+
+.screen .text-wrapper-29 {
+  width: 121px;
+  top: 160px;
+  left: 275px;
+  font-family: "JejuHallasan-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-30 {
+  width: 187px;
+  top: 160px;
+  left: 410px;
+  font-family: "JejuHallasan-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-31 {
+  width: 157px;
+  top: 160px;
+  left: 768px;
+  font-family: "JejuHallasan-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-32 {
+  width: 143px;
+  top: 160px;
+  left: 611px;
+  font-family: "JejuHallasan-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-33 {
+  top: 65px;
+  left: 970px;
+  font-family: "JejuHallasan-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-34 {
+  top: 160px;
+  left: 939px;
+  font-family: "JejuHallasan-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 22px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-22 {
+  position: absolute;
+  width: 209px;
+  height: 81px;
+  top: 2924px;
+  left: 1060px;
+}
+
+.screen .text-wrapper-35 {
+  width: 162px;
+  top: 0;
+  left: 0;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-36 {
+  width: 93px;
+  top: 0;
+  left: 116px;
+  font-family: "JejuGothic-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .element-3 {
+  position: absolute;
+  width: 99px;
+  height: 101px;
+  top: 28px;
+  left: 88px;
+  object-fit: cover;
+}
+
+.screen .overlap-23 {
+  position: absolute;
+  width: 373px;
+  height: 108px;
+  top: 10px;
+  left: 206px;
+}
+
+.screen .element-4 {
+  position: absolute;
+  width: 248px;
+  height: 99px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen .p {
+  top: 82px;
+  left: 1px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #e50f0f;
+  font-size: 20px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
