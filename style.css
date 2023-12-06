@@ -969,3 +969,94 @@ html, body {
   letter-spacing: 0;
   line-height: normal;
 }
+
+
+.grid {
+  top: 60px;
+  position: relative;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 68px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  width: 1280px;
+}
+
+.element-fo-f {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+}
+
+.rectangle {
+  position: relative;
+  width: 240px;
+  height: 290px;
+  border: 1px solid #000000;
+}
+
+.name {
+  position: absolute;
+  width: 208px;
+  top: 171px;
+  left: 16px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.price {
+  position: absolute;
+  top: 228px;
+  left: 110px;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.overlap {
+  width: 240px;
+  height: 290px;
+}
+
+.category {
+  top: 30px;
+  left: 68px;
+  position: relative;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cat {
+  height: 500px;
+}
+
+.test {
+  background-color: #ffffff;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  width: 1280px;
+  height: 3000px;
+  position: relative;
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
