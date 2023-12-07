@@ -119,6 +119,7 @@ function onEnable() {
             "img": "img/glasses/tropical.png"
         }
     }
+    
 
     let wraps_block = ``;
     for (let wrap in wraps) {
