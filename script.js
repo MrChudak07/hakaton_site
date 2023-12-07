@@ -29,43 +29,43 @@ function onEnable() {
     }
 
     const stoles = {
-        "Sinem": {
-            "name": "Платок Sinem",
-            "price": "6 500 ₽",
-            "img": "img/wraps/sinem.png"
+        "Boss": {
+            "name": "Палантин BOSS",
+            "price": "10 440 ₽",
+            "img": "img/stoles/boss.png"
         },
-        "Apuntob": {
-            "name": "Платок Apuntob",
-            "price": "15 999 ₽",
-            "img": "img/wraps/apuntop.png"
+        "Laura_Palanti": {
+            "name": "Палантин зимний Laura Palanti",
+            "price": "1 197 ₽",
+            "img": "img/stoles/laura_palanti.png"
         },
-        "Marc_Jacobs": {
-            "name": "Платок Marc Jacobs",
-            "price": "12 199 ₽",
-            "img": "img/wraps/marc_jacobs.png"
+        "Evelenty": {
+            "name": "Палантин Evelenty",
+            "price": "14 000 ₽",
+            "img": "img/stoles/evelenty.png"
         },
-        "Gallieni": {
-            "name": "Платок Gallieni",
-            "price": "9 000 ₽",
-            "img": "img/wraps/gallieni.png"
+        "Cashmere": {
+            "name": "Палантин Cashmere",
+            "price": "2 999 ₽",
+            "img": "img/stoles/cashmere.png"
         }
     }
 
     const gloves = {
-        "Sinem": {
-            "name": "Платок Sinem",
-            "price": "6 500 ₽",
-            "img": "img/wraps/sinem.png"
+        "Angelo_Bianco": {
+            "name": "Перчатки Angelo Bianco",
+            "price": "699 ₽",
+            "img": "img/gloves/angelo_bianc0.png"
         },
-        "Apuntob": {
-            "name": "Платок Apuntob",
-            "price": "15 999 ₽",
-            "img": "img/wraps/apuntop.png"
+        "Daniele_Patrici": {
+            "name": "Перчатки Daniele Patrici",
+            "price": "999 ₽",
+            "img": "img/gloves/daniele_patrici.png"
         },
-        "Marc_Jacobs": {
-            "name": "Платок Marc Jacobs",
-            "price": "12 199 ₽",
-            "img": "img/wraps/marc_jacobs.png"
+        "Alessio_Nesca": {
+            "name": "Перчатки Alessio Nesca",
+            "price": "1 699 ₽",
+            "img": "img/gloves/alessio_nesca.png"
         },
         "Gallieni": {
             "name": "Платок Gallieni",
@@ -75,30 +75,30 @@ function onEnable() {
     }
 
     const mittens = {
-        "Sinem": {
-            "name": "Платок Sinem",
-            "price": "6 500 ₽",
-            "img": "img/wraps/sinem.png"
+        "eco": {
+            "name": "Варежки из экомеха",
+            "price": "1 350 ₽",
+            "img": "img/mittens/eco.png"
         },
-        "Apuntob": {
-            "name": "Платок Apuntob",
-            "price": "15 999 ₽",
-            "img": "img/wraps/apuntop.png"
+        "nature": {
+            "name": "Варежки из натуральной кожи",
+            "price": "1 430 ₽",
+            "img": "img/mittens/nature.png"
         },
-        "Marc_Jacobs": {
-            "name": "Платок Marc Jacobs",
-            "price": "12 199 ₽",
-            "img": "img/wraps/marc_jacobs.png"
+        "comb": {
+            "name": "Комбинированные варежки",
+            "price": "1 510 ₽",
+            "img": "img/mittens/comb.png"
         },
-        "Gallieni": {
-            "name": "Платок Gallieni",
-            "price": "9 000 ₽",
-            "img": "img/wraps/gallieni.png"
+        "teplo": {
+            "name": "Утепленные варежки",
+            "price": "1 510 ₽",
+            "img": "img/mittens/teplo.png"
         }
     }
 
     const glasses = {
-        "Sinem": {
+        "gucci_glasses": {
             "name": "Очки Rectors Splinter",
             "price": "6 500 ₽",
             "img": "img/glasses/gucci_glasses.png"
